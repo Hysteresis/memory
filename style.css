@@ -1,0 +1,13 @@
+body{
+        background: linear-gradient(90deg, rgb(1, 2, 49) 0%, rgb(5, 5, 71) 45%, rgb(8, 8, 75) 100%);
+        color: whitesmoke;
+}
+
+h1{
+        text-align: center;
+        color: red;
+}
+
+.grid-item{
+        background-color: pink;
+}
