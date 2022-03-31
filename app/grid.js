@@ -19,15 +19,13 @@ for(let i = 0; i < 28; i++){
         createDiv.setAttribute("class","grid-item");
         createDiv.setAttribute("id",i);
         createDiv.textContent = i;
-        // let gridContainer = document.querySelector('#grid-container');
-        // gridContainer.getElementsByTagName("div").setAttribute("class","grid-item");
+      
         
         document.querySelector("#grid-container").appendChild(createDiv);
 
         console.log(grid[i]);
 
 }
-
 
 
 
