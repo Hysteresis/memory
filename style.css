@@ -22,6 +22,14 @@ img{
         height: 90%;
         
 }
+
+#is_victory{
+        color: greenyellow;
+        text-align: center;
+        font-size: 2rem;
+}
+
+
 .card{       
         padding: 0.5rem; 
         margin: 0.5rem;   
@@ -56,3 +64,37 @@ img{
         }
 
 }
+
+.progressBar{
+        display: flex;
+        justify-content: center;
+        background-color: crimson;
+        height: 2rem;
+}
+
+#progressBar{
+        
+        height: 1rem ;
+        background-color: rgb(255, 252, 192);
+        color: aqua;
+        
+}
+
+progress {
+  -webkit-appearance: none;
+}
+
+::-webkit-progress-bar {
+   background-color: rgb(231, 231, 231);
+}
+
+::-webkit-progress-value {
+  background-color: orange;
+}
+
+#score{
+        color: greenyellow;
+        text-align: center;
+        font-size: 2rem;
+}
+
